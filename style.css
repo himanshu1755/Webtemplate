@@ -2,13 +2,8 @@
   margin: 0;
   padding: 0;
 }
-@viewport{
-	zoom: 1.0;
-	width : extend-to-zoom;
-}
 @-ms-viewport{
-	width: extend-to-zoom;
-	zoom: 1.0;
+  width: device-width;
 }
 body{
   font-family: sans-serif;
